@@ -18,9 +18,6 @@ export default {
                 "subtext-2": "#ABABAB",
                 "subtext-3": "#10CBE0"
             },
-            boxShadow: {
-                'auth': '0 4px 12px #0000000A',
-            },
         },
     },
     important: true,
