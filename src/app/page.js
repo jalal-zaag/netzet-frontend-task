@@ -1,7 +1,9 @@
+import Header from "@/components/homepage/header";
+
 export default function Home() {
     return (
-        <div className="bg-red-600">
-            dhfas
+        <div>
+            <Header/>
         </div>
     );
 }
