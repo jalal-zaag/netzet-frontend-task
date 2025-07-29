@@ -1,5 +1,7 @@
-import Logo from '../assets/images/logo.svg';
+import Logo from '../assets/images/logo.png';
+import InflueMobileMockup from '../assets/images/Influe_mobile_mockup.png';
 
 export const Images = {
-    Logo
+    Logo,
+    InflueMobileMockup
 }
