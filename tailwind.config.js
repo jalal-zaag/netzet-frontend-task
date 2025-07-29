@@ -12,11 +12,12 @@ export default {
             colors: {
                 // background: "var(--background)",
                 foreground: "var(--foreground)",
+                black: "#000000",
                 white: "#FFFFFF",
                 primary: "#FC004E",
-                subtext: "#00E7F9",
-                "subtext-2": "#ABABAB",
-                "subtext-3": "#10CBE0"
+                "subtext-f9": "#00E7F9",
+                "subtext-AB": "#ABABAB",
+                "subtext-E0": "#10CBE0"
             },
         },
     },

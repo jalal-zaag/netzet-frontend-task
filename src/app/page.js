@@ -1,9 +1,11 @@
-import Header from "@/components/homepage/header";
+import Topbar from "@/components/homepage/topbar";
+import Hero from "@/components/homepage/Hero";
 
 export default function Home() {
     return (
         <div>
-            <Header/>
+            <Topbar/>
+            <Hero/>
         </div>
     );
 }
