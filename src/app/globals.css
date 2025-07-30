@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .text-shadow-fametonic {
+        text-shadow: 0 4px 4px #FC004E;
+    }
+}

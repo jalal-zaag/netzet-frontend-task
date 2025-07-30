@@ -19,6 +19,9 @@ export default {
                 "subtext-AB": "#ABABAB",
                 "subtext-E0": "#10CBE0"
             },
+            boxShadow: {
+                pinkGlow: '0px 4px 4px #FC004E',
+            },
         },
     },
     important: true,

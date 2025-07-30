@@ -4,7 +4,8 @@ import HeroMain from "@/components/homepage/HeroMain";
 
 const Hero = () => {
     return (
-        <div className="bg-black h-[calc(100vh-53px)] overflow-hidden h">
+        // <div className="bg-black h-[calc(100vh-53px)] overflow-hidden h">
+        <div className="bg-black">
             <div className="container mx-auto relative">
                 <Header/>
                 <HeroMain/>
