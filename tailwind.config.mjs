@@ -16,14 +16,12 @@ export default {
                 sm: "640px",
                 md: "768px",
                 lg: "1024px",
-                // xl: "1280px",
                 xl: "1124px",
-                '2xl': "1124px", // 👈 Limit 2xl to 1280px
+                '2xl': "1124px",
             },
         },
         extend: {
             colors: {
-                // background: "var(--background)",
                 foreground: "var(--foreground)",
                 black: "#000000",
                 white: "#FFFFFF",
@@ -34,7 +32,7 @@ export default {
             },
             boxShadow: {
                 pinkGlow: '0px 4px 4px #FC004E',
-                btnGlow: '2px 2px 4px 0px #00E7F9',
+                btnGlow: '2px 2px 10px 0px #00E7F9',
             },
         },
     },

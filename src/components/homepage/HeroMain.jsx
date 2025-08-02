@@ -2,31 +2,29 @@ import React from 'react';
 import {Images} from "@/helpers/Images";
 import Image from "next/image";
 import HeroList from "@/components/homepage/HeroList";
-import HeroFooer from "@/components/homepage/HeroFooer";
+import HeroFooter from "@/components/homepage/HeroFooter";
 import MobileHeader from "@/components/homepage/MobileHeader";
 
 const HeroMain = () => {
     return (
-        <div className="lg:flex justify-between lg:mt-[-67px] relative">
+        <div className="lg:flex justify-between lg:mt-[-87px] relative">
 
             <MobileHeader/>
 
             {/*MOBILE, TABLET IMAGE*/}
             <div className="w-full h-[426px] sm:h-[500px] z-[10] lg:hidden block ">
                 <Image
-                    src={Images.InflueMobileMockup}
+                    src={Images.InflueMobileMockupMobile}
                     alt="Mockup"
                     width={900}
                     height={900}
-                    // className="w-full h-full object-contain"
-                    className="w-full h-full"
+                    className="w-full h-full "
                 />
             </div>
 
 
             <div
-                className="relative lg:absolute lg:pt-[57px] lg:w-[540px] z-[99] text-center lg:text-left lg:mt-0 md:mt-[-40px] sm:mt-[-80px] mt-[-75px]">
-                {/*<p className=" text-white font-bold text-[25px] lg:text-[35px] lg:relative absolute top-[-80px] sm:top-[-60px]">*/}
+                className="relative lg:absolute lg:pt-[75px] lg:w-[540px] z-[99] text-center lg:text-left lg:mt-0 md:mt-[-40px] sm:mt-[-80px] mt-[-75px]">
                 <p className=" text-white font-bold text-[25px] lg:text-[35px] ">
                     Want to Turn Social Media Into a Profitable Career?
                 </p>
@@ -40,7 +38,7 @@ const HeroMain = () => {
                 </div>
 
                 <div className="block lg:hidden">
-                    <HeroFooer/>
+                    <HeroFooter/>
                 </div>
 
                 <div className="lg:w-[313px]">
@@ -64,7 +62,7 @@ const HeroMain = () => {
                 </div>
 
                 <div className="hidden lg:block">
-                    <HeroFooer/>
+                    <HeroFooter/>
                 </div>
 
 

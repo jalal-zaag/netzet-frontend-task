@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeroFooer = () => {
+const HeroFooter = () => {
     return (
         <div>
             <p className="text-[12px] font-medium text-subtext-AB mt-[30px]">
@@ -16,4 +16,4 @@ const HeroFooer = () => {
     );
 };
 
-export default HeroFooer;
+export default HeroFooter;
