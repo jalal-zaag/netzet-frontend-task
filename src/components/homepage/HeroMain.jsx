@@ -3,12 +3,16 @@ import {Images} from "@/helpers/Images";
 import Image from "next/image";
 import HeroList from "@/components/homepage/HeroList";
 import HeroFooer from "@/components/homepage/HeroFooer";
+import MobileHeader from "@/components/homepage/MobileHeader";
 
 const HeroMain = () => {
     return (
-        <div className="lg:flex justify-between mt-[-67px] relative">
+        <div className="lg:flex justify-between lg:mt-[-67px] relative">
 
-            <div className="md:w-[400px] lg:w-[666px] h-[679px] z-[10] lg:hidden block">
+            <MobileHeader/>
+
+            {/*MOBILE, TABLET IMAGE*/}
+            <div className="w-full h-[426px] z-[10] lg:hidden block ">
                 <Image
                     src={Images.InflueMobileMockup}
                     alt="Mockup"
@@ -16,16 +20,18 @@ const HeroMain = () => {
                     height={900}
                     // className="w-full h-full object-contain"
                     className="w-full h-full"
-                    priority
                 />
             </div>
 
 
-            <div className="lg:absolute pt-[57px] lg:w-[540px] z-[99] text-center lg:text-left">
-                <p className="text-white font-bold text-[35px]">
+            <div
+                className="relative lg:absolute lg:pt-[57px] lg:w-[540px] z-[99] text-center lg:text-left lg:mt-0 md:mt-[-40px] sm:mt-[-80px] mt-[-110px]">
+                {/*<p className=" text-white font-bold text-[25px] lg:text-[35px] lg:relative absolute top-[-80px] sm:top-[-60px]">*/}
+                <p className=" text-white font-bold text-[25px] lg:text-[35px] ">
                     Want to Turn Social Media Into a Profitable Career?
                 </p>
-                <p className="font-bold text-[35px] text-subtext-f9 text-shadow-fametonic"> Discover your way to
+                <p className="font-bold text-[25px] lg:text-[35px] text-subtext-f9 text-shadow-fametonic"> Discover your
+                    way to
                     success <br/>
                     with Fametonic:</p>
 
@@ -69,7 +75,7 @@ const HeroMain = () => {
 
             </div>
 
-            {/*<div className="w-[666px] min-w-[666px] max-h-[600px] z-[10]">*/}
+            {/*DESKTOP IMAGE*/}
             <div className="md:w-[400px] lg:w-[666px] h-[679px] z-[10] lg:block hidden">
                 <Image
                     src={Images.InflueMobileMockup}

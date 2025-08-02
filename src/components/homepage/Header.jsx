@@ -4,7 +4,7 @@ import {Images} from "@/helpers/Images";
 
 const Header = () => {
     return (
-        <div className="flex justify-between pt-[35px] pb-[57px]">
+        <div className="hidden lg:flex justify-between pt-[35px] pb-[57px]">
             <Image
                 src={Images.Logo}
                 alt="Logo"
