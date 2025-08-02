@@ -8,6 +8,19 @@ export default {
     ],
 
     theme: {
+        container: {
+            center: true,
+            padding: '1rem',
+            screens: {
+                DEFAULT: "100%",
+                sm: "640px",
+                md: "768px",
+                lg: "1024px",
+                // xl: "1280px",
+                xl: "1124px",
+                '2xl': "1124px", // 👈 Limit 2xl to 1280px
+            },
+        },
         extend: {
             colors: {
                 // background: "var(--background)",
@@ -21,6 +34,7 @@ export default {
             },
             boxShadow: {
                 pinkGlow: '0px 4px 4px #FC004E',
+                btnGlow: '2px 2px 4px 0px #00E7F9',
             },
         },
     },
