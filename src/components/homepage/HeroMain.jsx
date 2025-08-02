@@ -12,7 +12,7 @@ const HeroMain = () => {
             <MobileHeader/>
 
             {/*MOBILE, TABLET IMAGE*/}
-            <div className="w-full h-[426px] z-[10] lg:hidden block ">
+            <div className="w-full h-[426px] sm:h-[500px] z-[10] lg:hidden block ">
                 <Image
                     src={Images.InflueMobileMockup}
                     alt="Mockup"
@@ -25,7 +25,7 @@ const HeroMain = () => {
 
 
             <div
-                className="relative lg:absolute lg:pt-[57px] lg:w-[540px] z-[99] text-center lg:text-left lg:mt-0 md:mt-[-40px] sm:mt-[-80px] mt-[-110px]">
+                className="relative lg:absolute lg:pt-[57px] lg:w-[540px] z-[99] text-center lg:text-left lg:mt-0 md:mt-[-40px] sm:mt-[-80px] mt-[-75px]">
                 {/*<p className=" text-white font-bold text-[25px] lg:text-[35px] lg:relative absolute top-[-80px] sm:top-[-60px]">*/}
                 <p className=" text-white font-bold text-[25px] lg:text-[35px] ">
                     Want to Turn Social Media Into a Profitable Career?
